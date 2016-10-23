@@ -16,7 +16,7 @@ else:
 
 a = re.compile(r'^([a-z][a-z]|[a-z][0-9]|[0-9][a-z])([a-z]?[0-9]{1,4}[a-z]?)$')
 
-#####SECOND REGEG TO FIND THE CARRIER CODE PORTION OF STING
+#####SECOND REGEX TO FIND THE CARRIER CODE PORTION OF STING
 
 b = p.findall(test1)
 if b:
